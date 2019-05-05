@@ -76,7 +76,8 @@ public class DailyActivity extends AppCompatActivity implements DailyView
             break;
             
           case R.id.navfriend:
-            Toast.makeText(DailyActivity.this, "Friend",Toast.LENGTH_SHORT).show();
+            start = new Intent(DailyActivity.this, FriendActivity.class);
+            startActivity(start);
             break;
         
           case R.id.navvideo:
@@ -85,11 +86,13 @@ public class DailyActivity extends AppCompatActivity implements DailyView
             break;
   
           case R.id.navmusic:
-            Toast.makeText(DailyActivity.this, "Music&Video",Toast.LENGTH_SHORT).show();
+            start = new Intent(DailyActivity.this, MusicActivity.class);
+            startActivity(start);
             break;
         
           case R.id.navprofile:
-            Toast.makeText(DailyActivity.this, "Profile",Toast.LENGTH_SHORT).show();
+            start = new Intent(DailyActivity.this, ProfileActivity.class);
+            startActivity(start);
             break;
         
           default:

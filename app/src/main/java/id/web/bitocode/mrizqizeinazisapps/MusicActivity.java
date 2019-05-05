@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class HomeActivity extends AppCompatActivity
+public class MusicActivity extends AppCompatActivity
 {
   
   private DrawerLayout dl;
@@ -18,23 +18,22 @@ public class HomeActivity extends AppCompatActivity
   private NavigationView nv;
   private Intent start;
   
-  
   @Override
   protected void onCreate(Bundle savedInstanceState)
   {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_home);
+    setContentView(R.layout.activity_music);
   
     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    getSupportActionBar().setTitle("Home");
-    
-    dl = findViewById(R.id.activity_home);
+    getSupportActionBar().setTitle("Music");
+  
+    dl = findViewById(R.id.activity_music);
     dt = new ActionBarDrawerToggle(this, dl,  R.string.Open, R.string.Close);
-    
+  
     dl.addDrawerListener(dt);
     dt.syncState();
-    
-    nv = findViewById(R.id.nvHome);
+  
+    nv = findViewById(R.id.nvMusic);
     nv.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener()
     {
       @Override
@@ -44,39 +43,39 @@ public class HomeActivity extends AppCompatActivity
         switch (id)
         {
           case R.id.navhome:
-            Toast.makeText(HomeActivity.this, "Home",Toast.LENGTH_SHORT).show();
+            start = new Intent(MusicActivity.this, HomeActivity.class);
+            startActivity(start);
             break;
-  
+        
           case R.id.navdaily:
-            start = new Intent(HomeActivity.this, DailyActivity.class);
+            start = new Intent(MusicActivity.this, DailyActivity.class);
             startActivity(start);
             break;
-  
+        
           case R.id.navfriend:
-            start = new Intent(HomeActivity.this, FriendActivity.class);
+            start = new Intent(MusicActivity.this, FriendActivity.class);
             startActivity(start);
             break;
-  
+        
           case R.id.navgallery:
-            start = new Intent(HomeActivity.this, GalleryActivity.class);
+            start = new Intent(MusicActivity.this, GalleryActivity.class);
             startActivity(start);
             break;
-  
+        
           case R.id.navvideo:
-            start = new Intent(HomeActivity.this, VideoActivity.class);
+            start = new Intent(MusicActivity.this, VideoActivity.class);
             startActivity(start);
             break;
-  
+        
           case R.id.navmusic:
-            start = new Intent(HomeActivity.this, MusicActivity.class);
-            startActivity(start);
+            Toast.makeText(MusicActivity.this, "Music",Toast.LENGTH_SHORT).show();
             break;
-  
+        
           case R.id.navprofile:
-            start = new Intent(HomeActivity.this, ProfileActivity.class);
+            start = new Intent(MusicActivity.this, ProfileActivity.class);
             startActivity(start);
             break;
-            
+        
           default:
             return true;
         }
@@ -92,4 +91,5 @@ public class HomeActivity extends AppCompatActivity
       return true;
     return super.onOptionsItemSelected(menuItem);
   }
+  
 }

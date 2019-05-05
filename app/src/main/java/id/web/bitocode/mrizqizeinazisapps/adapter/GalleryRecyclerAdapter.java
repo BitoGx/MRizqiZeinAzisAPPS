@@ -1,6 +1,5 @@
 package id.web.bitocode.mrizqizeinazisapps.adapter;
 
-import android.speech.tts.TextToSpeech;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -16,6 +15,7 @@ public class GalleryRecyclerAdapter extends RecyclerView.Adapter<GalleryRecycler
   
   private int[] images;
   private String[] title;
+  
   public GalleryRecyclerAdapter(int[] images, String[] title)
   {
     this.images = images;
@@ -26,10 +26,8 @@ public class GalleryRecyclerAdapter extends RecyclerView.Adapter<GalleryRecycler
   @Override
   public ImageViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i)
   {
-    
     View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.album_layout,viewGroup, false);
     ImageViewHolder imageViewHolder = new ImageViewHolder(view);
-    
     
     return imageViewHolder;
   }
@@ -62,5 +60,4 @@ public class GalleryRecyclerAdapter extends RecyclerView.Adapter<GalleryRecycler
       album_title = itemView.findViewById(R.id.album_title);
     }
   }
-  
 }

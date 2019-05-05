@@ -63,7 +63,8 @@ public class VideoActivity extends AppCompatActivity
             break;
         
           case R.id.navfriend:
-            Toast.makeText(VideoActivity.this, "Friend",Toast.LENGTH_SHORT).show();
+            start = new Intent(VideoActivity.this, FriendActivity.class);
+            startActivity(start);
             break;
         
           case R.id.navgallery:
@@ -76,10 +77,13 @@ public class VideoActivity extends AppCompatActivity
             break;
         
           case R.id.navmusic:
-            Toast.makeText(VideoActivity.this, "Music",Toast.LENGTH_SHORT).show();
+            start = new Intent(VideoActivity.this, MusicActivity.class);
+            startActivity(start);
+            break;
         
           case R.id.navprofile:
-            Toast.makeText(VideoActivity.this, "Profile",Toast.LENGTH_SHORT).show();
+            start = new Intent(VideoActivity.this, ProfileActivity.class);
+            startActivity(start);
             break;
         
           default:
