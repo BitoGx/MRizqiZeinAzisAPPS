@@ -28,7 +28,7 @@
             android:padding="20dp">
 
             <TextView
-                android:id="@+id/txtProfil"
+                android:id="@+id/txtProfileHome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Profile"
@@ -36,14 +36,14 @@
                 android:textSize="18sp" />
 
             <ImageView
-                android:id="@+id/imgSelf"
+                android:id="@+id/imgSelfHome"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/img" />
 
             <TextView
-                android:id="@+id/txtNama"
+                android:id="@+id/txtNamaHome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Muhammad Rizqi Zein Azis"
@@ -51,7 +51,7 @@
                 android:textColor="@color/colorPrimary" />
 
             <TextView
-                android:id="@+id/txtDeskripsi"
+                android:id="@+id/txtDeskripsiHome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Lahir di kota Balikpapan pada tanggal 7 Oktober 1998, \n Merupakan anak pertama dari 3 bersaudara.\nMempunyai cita cita menjadi seorang tentara, pilot, professor dan akhirnya nyasar ke programmer. Untuk sekarang sedang belajar di Universitas Komputer Indonesia"

@@ -5,4 +5,5 @@
     <string name="Slide3" />
     <string name="Open" />
     <string name="Close" />
+    <string name="title_activity_maps">Map</string>
 </resources>

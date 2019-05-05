@@ -16,7 +16,7 @@
         android:src="@drawable/splash_logo" />
 
     <TextView
-        android:id="@+id/txtNama"
+        android:id="@+id/txtNamaHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
