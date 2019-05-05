@@ -39,7 +39,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 /*
  *
- * Tanggal Pengerjaan :
+ * Tanggal Pengerjaan : April 23, 2019 - May 5,2019
  * NIM   : 10116073
  * Nama  : Muhammad Rizqi Zein Azis
  * Kelas : AKB-2 / IF-2
