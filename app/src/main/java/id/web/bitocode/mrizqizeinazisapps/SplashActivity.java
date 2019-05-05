@@ -6,6 +6,16 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 
+/*
+ *
+ * Tanggal Pengerjaan :
+ * NIM   : 10116073
+ * Nama  : Muhammad Rizqi Zein Azis
+ * Kelas : AKB-2 / IF-2
+ *
+ *
+ */
+
 public class SplashActivity extends Activity
 {
   Handler handler;

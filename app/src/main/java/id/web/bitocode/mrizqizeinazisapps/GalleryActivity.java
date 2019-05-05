@@ -14,6 +14,16 @@ import android.widget.Toast;
 
 import id.web.bitocode.mrizqizeinazisapps.adapter.GalleryRecyclerAdapter;
 
+/*
+ *
+ * Tanggal Pengerjaan :
+ * NIM   : 10116073
+ * Nama  : Muhammad Rizqi Zein Azis
+ * Kelas : AKB-2 / IF-2
+ *
+ *
+ */
+
 public class GalleryActivity extends AppCompatActivity
 {
   

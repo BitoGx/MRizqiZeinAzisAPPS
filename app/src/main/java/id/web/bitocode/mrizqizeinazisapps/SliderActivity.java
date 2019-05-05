@@ -8,6 +8,16 @@ import android.os.Bundle;
 
 import id.web.bitocode.mrizqizeinazisapps.adapter.SplashPagerAdapter;
 
+/*
+ *
+ * Tanggal Pengerjaan :
+ * NIM   : 10116073
+ * Nama  : Muhammad Rizqi Zein Azis
+ * Kelas : AKB-2 / IF-2
+ *
+ *
+ */
+
 public class SliderActivity extends AppCompatActivity
 {
   Handler handler;

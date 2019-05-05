@@ -25,6 +25,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+/*
+ *
+ * Tanggal Pengerjaan :
+ * NIM   : 10116073
+ * Nama  : Muhammad Rizqi Zein Azis
+ * Kelas : AKB-2 / IF-2
+ *
+ *
+ */
+
 public class MusicActivity extends AppCompatActivity
 {
   

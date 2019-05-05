@@ -23,6 +23,16 @@ import id.web.bitocode.mrizqizeinazisapps.presenter.DailyPresenter;
 import id.web.bitocode.mrizqizeinazisapps.presenter.DailyPresenterImpl;
 import id.web.bitocode.mrizqizeinazisapps.view.DailyView;
 
+/*
+ *
+ * Tanggal Pengerjaan :
+ * NIM   : 10116073
+ * Nama  : Muhammad Rizqi Zein Azis
+ * Kelas : AKB-2 / IF-2
+ *
+ *
+ */
+
 public class DailyActivity extends AppCompatActivity implements DailyView
 {
   

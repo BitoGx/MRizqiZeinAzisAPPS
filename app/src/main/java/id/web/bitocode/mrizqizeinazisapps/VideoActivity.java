@@ -17,6 +17,16 @@ import java.util.Vector;
 import id.web.bitocode.mrizqizeinazisapps.adapter.VideoRecyclerAdapter;
 import id.web.bitocode.mrizqizeinazisapps.model.YoutubeModel;
 
+/*
+ *
+ * Tanggal Pengerjaan :
+ * NIM   : 10116073
+ * Nama  : Muhammad Rizqi Zein Azis
+ * Kelas : AKB-2 / IF-2
+ *
+ *
+ */
+
 public class VideoActivity extends AppCompatActivity
 {
   
